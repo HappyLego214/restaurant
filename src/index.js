@@ -1,12 +1,11 @@
 import './style.css';
 import {buildMenu} from './menu';
+import {buildAbout} from './about';
 
 const content = document.getElementById('content');
 const index = document.getElementById('index');
 const menu = document.getElementById('menu');
 const about = document.getElementById('about');
-
-buildMenu();
 
 index.addEventListener('click', () => {
     cleanTree()
@@ -107,3 +106,4 @@ function createLocation() {
     locationDiv.appendChild(locationPara);
 }
 
+buildIndex();
