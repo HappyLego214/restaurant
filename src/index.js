@@ -46,9 +46,9 @@ function createMainContainers() {
     const centerCont = document.createElement('div');
     const rightCont = document.createElement('div');
 
-    leftCont.className = 'left';
-    centerCont.className = 'center';
-    rightCont.className = 'right';
+    leftCont.className = 'index-left';
+    centerCont.className = 'index-center';
+    rightCont.className = 'index-right';
     
     content.firstElementChild.appendChild(leftCont);
     content.firstElementChild.appendChild(centerCont);

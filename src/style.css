@@ -11,11 +11,65 @@ div {
 }
 
 header {
+    margin-bottom: 5px;
+    background-color: antiquewhite;
     display: flex;
     height: 70px;
     justify-content: center;
     align-items: center;
     gap: 25px;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+#contact-form button {
+    font-size: medium;
+    width: 130px;
+    height: 40px;
+}
+
+.contact-name-container {
+    display: flex;
+    gap: 45px;
+}
+
+.contact-name-container div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.contact-msg-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.contact-email-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.contact-name-container input {
+    width: 150px;
+    height: 20px;
+    padding: 5px;
+}
+
+.contact-email-container input {
+    width: 250px;
+    height: 20px;
+    padding: 5px;
+}
+
+.contact-msg-container textarea {
+    width: 370px;
+    resize: none;
 }
 
 nav {
@@ -25,12 +79,33 @@ nav {
 
 nav button {
     border: 0px;
-    border-bottom: 1px solid black;
+    border-radius: 5px;
     background-color: white;
     height: 40px;
     width: 100px;
     font-size: larger;
     cursor: pointer;
+}
+
+.contact-container {
+    display: grid;
+    grid-template-columns: 700px 1000px;
+    justify-content: center;
+}
+
+.contact-left {
+    height: 500px;
+    padding: 50px;
+}
+
+
+.contact-box {
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    margin-left: 50px;
+    margin-top: 25px;
+    padding: 50px;
 }
 
 .menu-container {
@@ -52,6 +127,7 @@ nav button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 20px;
 }
 
 .menu-list {
@@ -72,7 +148,7 @@ nav button {
     height: 90vh;
 }
 
-.left {
+.index-left {
     border-radius: 50px;
     background-image: url('./left.jpg');
     background-size: cover;
@@ -80,14 +156,21 @@ nav button {
     
 }
 
-.right {
+.contact-banner {
+    background-image: url('./contact.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+.index-right {
     border-radius: 50px;
     background-image: url('./right.jpg');
     background-size: cover;
     background-position: center;
 }
 
-.center {
+.index-center {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -105,6 +188,8 @@ nav button {
 
 .menu-item {
     height: 450px;
+    padding: 10px;
+    background-color: antiquewhite;
 }
 
 .desc {
@@ -120,7 +205,6 @@ nav button {
 }
 
 .menu-item img {
-    border: 1px solid black;
     border-radius: 5px;
     height: 250px;
     width: 350px;
