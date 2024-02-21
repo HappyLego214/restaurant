@@ -1,6 +1,6 @@
 import './style.css';
 import {buildMenu} from './menu';
-import {buildAbout} from './about';
+import {buildContact} from './contact';
 
 const content = document.getElementById('content');
 const index = document.getElementById('index');
@@ -19,7 +19,7 @@ menu.addEventListener('click', () => {
 
 about.addEventListener('click', () => {
     cleanTree()
-    buildAbout();
+    buildContact();
 });
 
 function cleanTree() {
