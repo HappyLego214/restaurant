@@ -1,0 +1,16 @@
+{
+    "menuCategories": ["Main Orders", "Side Orders", "Beverages"],
+    "mainMenu": ["Classic Cheeseburger", "Southwestern Chipotle Burger", "Mushroom Swiss Burger"],
+    "mainPrices": ["$8,99","10.99","$99.9"],
+    "mainDesc": ["A timeless favorite with a juicy beef patty, melted cheddar cheese, crisp lettuce, ripe tomato slices, tangy pickles, and zesty mayonnaise, all on sesame seed buns", 
+    "This spicy sensation features a succulent beef patty with melted pepper jack cheese, crispy bacon, grilled onions, fresh avocado, and smoky chipotle sauce.",
+    "Elevate your burger experience with a juicy beef patty, sautéed mushrooms, melted Swiss cheese, garlic aioli, all nestled in a toasted brioche bun."],
+
+    "sideMenu": ["Crispy Onion Rings", "Garlic Parmesan Fries", "Sweet Potato Wedges"],
+    "sidePrices": ["$4.99", "$5.49", "$5.99"],
+    "sideDesc": ["Indulge in a crispy delight with our golden-fried onion rings, served piping hot and seasoned to perfection.","Savor the irresistible combination of crispy French fries tossed in garlic-infused oil and sprinkled with grated Parmesan cheese.","Treat your taste buds to the sweet and savory goodness of our oven-baked sweet potato wedges, served with a side of honey mustard dipping sauce."],
+
+    "bevMenu": ["Classic Milkshake", "Iced Caramel Macchiato", "Freshly Squeezed Lemonade"],
+    "bevPrices": ["$3.99", "$4.49", "$2.99"],
+    "bevDesc": ["Transport yourself back to the good old days with our creamy classic milkshake, available in chocolate, vanilla, or strawberry flavors.","Indulge in a refreshing blend of espresso, chilled milk, and rich caramel syrup, topped with a swirl of whipped cream and caramel drizzle.","Quench your thirst with our tangy and refreshing lemonade, made from freshly squeezed lemons and sweetened just right for a burst of citrusy flavor."]
+}

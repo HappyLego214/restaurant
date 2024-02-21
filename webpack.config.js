@@ -17,8 +17,12 @@ module.exports = {
                 type: 'asset/resource',
             },
             {
-                test: /\.html$/i,
-                type: 'html-loader',
+                test: /\.(csv|tsv)$/i,
+                type: 'csv-loader',
+            },
+            {
+                test: /\.json$/,
+                loader: 'json-loader'
             }
         ],
     }
